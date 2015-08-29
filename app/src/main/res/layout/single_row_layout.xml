@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/gameIcon_imageView"
+        android:src="@drawable/minecraft"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Minecraft"
+        android:id="@+id/game_title_textView"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/gameIcon_imageView"
+        android:layout_toRightOf="@+id/gameIcon_imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#313131"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
